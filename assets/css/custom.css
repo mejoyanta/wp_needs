@@ -1,0 +1,212 @@
+.width-100{
+    width: 100%;
+}
+.content_wrap{
+    padding: 0 20px;
+    max-width: 1060px;
+    margin: auto;
+}
+body.page-template-home.custom-background {
+    background-position: center center;
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+}
+@media (min-width: 1200px){
+    /* .container{
+        max-width: 1060px;
+    } */
+}
+/* common css------------- */
+#top_header_container{
+    background-color: #9E5BBA;
+    border-bottom: 1px solid #e40001;
+}
+#top_header_container p{
+    margin: 0;
+    color: #fff;
+}
+.header ul{
+    list-style: none;
+    padding: 0;
+}
+.header .mid_header ul > li a{
+    color: #fff;
+    background-color: #8CC643;
+    text-decoration: none;
+    position: relative;
+}
+.mid_menu_wrapperd{
+    width: 100%;
+}
+.header .mid_header ul > li:first-child > a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -38px;
+    /* background-color: #8CC643; */
+    width: 0;
+    height: 0;
+    border-top: 38px solid #8CC643;
+    border-left: 38px solid transparent;
+}
+.header .mid_header ul > li:first-child a:hover::before{
+    border-top: 38px solid #e91212;
+}
+.header .mid_header ul > li a:hover{
+    background-color: #e91212;
+    color: #fff;
+}
+.header .mid_header ul > li a span{
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.header .mid_header ul > li a span:first-child{
+    font-size: 26px;
+}
+.header .mid_header ul > li a span:last-child{
+    font-size: 12px;
+}
+.search-form form{
+    width: 80%;
+}
+.search-form form input[name="search"]{
+    width: 80%;
+}
+.main_header_menu ul> li{
+    /* background-color: #70bf42; */
+}
+.header_logo{
+    display: none;
+}
+.main_header_menu ul>li>a{
+    height: 37px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 14px;
+    padding: 0 6px 0;
+    text-decoration: none;
+    background-color: #D0D0D0;
+}
+.main_header_menu ul>li>a:hover{
+    background-color: #70bf42;
+    color: #fff;
+}
+.navbar-nav >li>a{
+    border-right: 1px solid #000;
+}
+.navbar-nav > li a{
+    font-size: 14px;
+}
+.navbar-nav >li  ul.sub-menu {
+    display: none;
+}
+.navbar-nav >li.menu-item-has-children{
+    position: relative;
+}
+.navbar-nav >li.menu-item-has-children:hover ul.sub-menu {
+    background-color: #fff;
+    width: 200px;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 9;
+}
+.carousel-item{
+    height: 266px;
+}
+
+.footer_img{
+    
+    width: 100%;
+    height: 84px;
+}
+.footer_menu{
+    margin-top: 10px;
+}
+.footer_menu ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.footer_menu > ul li{
+    /* padding: 1px 20px; */
+}
+.footer_menu > ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    border-right: 1px solid #000;
+    padding: 1px 20px;
+    font-size: 14px;
+}
+.note{
+    font-size: 14px;
+    color: #333;
+}
+#footer_wrapper{
+    background-color: #EBEBEB;
+}
+.sup{
+    font-size: 12px;
+}
+.tech_sup{
+    font-size: 12px;
+}
+.nav.nav-tabs li a{
+    padding: 9px 15px 5px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    background: #9E5BBA;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav.nav-tabs li a:hover,
+.nav.nav-tabs li a.active{
+background: #e8e8e8 !important;
+    color: #9E5BBA !important;
+}
+.nav-tabs{
+    border:none;
+}
+.tab_section{
+    margin-top: 10px;
+}
+iframe{
+    margin-top: 20px;
+    width: 100%;
+}
+footer{
+    margin-top: 20px;
+}
+@media screen and (max-width:992px){
+
+}
+.m-slide{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #E6E7E8;
+    padding: 5px 0px 0px 0px;
+}
+.m-slide marquee{
+    height: 25px;
+    font-weight: 600;
+}
+.bottom-widgets iframe{
+    height: 200px;
+}
+.tab-content{
+    height: 350px;
+}
+.tab-content img{
+    max-width: 100%;
+    height: auto;
+}

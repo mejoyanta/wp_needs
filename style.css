@@ -1,0 +1,16 @@
+/*
+Theme Name: Akib RPL
+Author: Md. Akib Rahman
+Description: This is Theme Description
+Tags: blog, custom-background, custom-logo, custom-menu, editor-style, featured-images, footer-widgets
+Version: 1.3
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: akib_rpl
+This theme, like WordPress, is licensed under the GPL.
+*/
+.pm_banner img{
+    max-width: 100%;
+    height: auto;
+}
